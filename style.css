@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F3F4;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: transparent;
+    z-index: 10;
+}
+.logo_container{
+    flex: 1;
+    padding: 0 30px;
+    color: cornflowerblue;
+    letter-spacing: 1px;
+}
+.btn_holder {
+    flex:1;
+}
+.link_holder {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    list-style-type: none;
+}
+span {
+    padding: 0 20px;
+}
+.button {
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: transparent;
+    font-weight: bold;
+    color: blue;
+}
+.content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+} 
+.right {
+    display: flex;
+    flex: 1;
+    padding: 40px 10px 20px 50px;
+    flex-direction: column;
+}
+.image_holder {
+    flex: 1;
+}
+
+.hero {
+    position: relative;
+    bottom: 0;
+    height: 500px;
+}
+.title{
+    font-size: 50px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 0;
+    color: dodgerblue;
+}
+.upon {
+    color: rgb(44, 44, 44);
+}
+.text2 {
+    font-size: 20px;
+    height: 20px;
+    padding: 0 5px;
+    color: rgb(83, 83, 83);
+    
+}
+.hero_btns {
+    display: flex;
+    margin: 50px 10px;
+    flex-direction: row;
+    width: 50;
+    justify-content: flex-start;
+}
+.button_2 {
+    outline: none;
+    width: 100px;
+    height: 35px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    font-weight: bold;
+    color:whitesmoke;
+}
+.separator {
+    width: 40vw;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(232, 227, 227);
+   
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin-top: 30px;
+}
+.easy, .stats {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 50px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    
+}
+.stats{
+    margin-left: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    color: cornflowerblue;
+    margin-right: 0px;
+    font-weight: bold;
+}
