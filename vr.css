@@ -11,6 +11,12 @@
     justify-content:space-around;
     align-items: center;
 }
+h3{
+    color: blue;
+}
+#logo{
+    color: black;
+}
 
 .image{
     width:650px;
